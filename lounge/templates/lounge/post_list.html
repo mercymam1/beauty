@@ -7,8 +7,55 @@
 <link	rel="stylesheet"	href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 <link	href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext"	rel="stylesheet"	type="text/css">
 <link	rel="stylesheet"	href="{%	static	'css/style.css'	%}">
+<style type="text/css">
+#largebox1{
+width:100% ;
+height: 450px;
+background-color: 000000;
+padding-top: 50px;
+padding-left: 140px;
+padding-right: 140px;
+}
+#box1{
+width: 400px;
+height: 400px;
+float:left;
+
+}
+#box2{
+width: 400px;
+height: 400px;
+float: right;
+}
+
+#box3{
+padding-top: 50px;
+padding-left: 100px;
+padding-right: 100px;
+width: 600px;
+height: 400px;
+float:left;
+background-color: 000000;
+}
+#box4{
+padding-top: 50px;
+padding-left: 100px;
+padding-right: 100px;
+width: 600px;
+height: 400px;
+float: right;
+background-color: 000000;
+}
+#footer{
+width: 100%;
+height: 100px;
+display: inline-block;
+}
+
+</style>
+
 </head>				
-<body>
+<body style="background-color: 000000">
 
 
 <nav class= "topnav" style="background-color: black">
@@ -34,4 +81,45 @@
 <center><img src="{% static 'IMG_3920.jpg' %}" style= "width : 100%"></center>
 </div>
 
+<div id= "largebox1">
+
+<div id= "box1">
+<a href=""><img src="{%static 'nnails.jpg' %}" style="width:100%; height: 100%;" alt=""  /></a> 
+</div>
+
+<div id= "box2">
+<a href=""><img src= "{% static 'mmakeup.jpg' %}" style="width:100%; height: 100%;" alt="" /></a>
+</div>
+
+</div>
+
+
+</div id= "largebox2">
+
+<div id= "box3">
+<a href=""><img src= "{% static 'image.jpg'%}"  style="width:100%; height: 100%;" alt="" /></a>
+</div>
+
+<div id= "box4">
+<a href=""><img src= "{% static 'Sspa.jpg'%}"  style="width:100%; height: 100%;" alt=""/></a>
+</div>
+
+</div>	
+
+<img src="{%static 'writeup.png' %}" style="width: 100%" alt=""/>
+
+<div class= "pinkline" style="background-color: ffc0cb">
+</div>
+
+<div id= "footer">
+<a href="" ><img src="{% static 'twitter.png' %}" alt=""/></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.instagram.com/perfectionist.lounge/" ><img src="{% static 'instagram.jpg' %}" alt=""/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="mailto:mercymameddu12@gmail.com"><img src="{% static 'gmail.jpg' %}" alt=""/></a>
+<center><p>
+Created by Mercy Mamedu
+</center></p>
+</div>	
+</div>
 </body>
